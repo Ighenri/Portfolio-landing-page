@@ -290,7 +290,7 @@ h4{
  }
  footer p:nth-child(1){
     color: white;
-    font-size: 17px;
+    font-size: 15px;
     width: 500px;
     text-align: center;
     line-height: 26px;
@@ -324,5 +324,98 @@ h4{
     position: absolute;
     color: red;
     bottom: 15px;
-    font-size: 15px;
+    font-size: 20px;
+ }
+
+ @media screen and (max-width:450px) {
+    .hero{
+        height: 40vh;
+        width: 100%;
+        background-size: 87%;
+        background-position: right;
+    }
+    
+    .logo{
+        font-size: 35px;
+        padding-top: 2%;
+    }
+    nav ul li{
+        display: none;
+    }
+
+    .btn{
+        display: none;
+    }
+    .content{
+        top: 35%;
+        transform: translateY(-80%);
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    .newsletter form{
+        display: none;
+    }
+
+    .about-text{
+        width: auto;
+        text-align: center;
+
+    }
+
+    .main{
+        flex-direction: column-reverse;
+    }
+
+    .about-text h2{
+        font-size: 45px;
+        text-align: center;
+    }
+    .about-text h5{
+        text-align: center;
+    }
+    .about-text p{
+        align-items: center;
+        font-size: 16px;
+        
+    }
+
+    
+    .title h2{
+        text-align: center;
+        width: 500px;
+        font-size: 65px;
+        margin-left: -60px;
+    }
+
+    .box{
+        flex-direction: column;
+
+    }
+    .contact-me{
+        flex-direction: column;
+        justify-content: space-around;
+        height: 150px;
+        text-align: center;
+    }
+
+    .contact-me p{
+        font-size: 25px;
+    }
+
+    footer p:nth-child(1){
+       width: 300px;
+       
+        
+    }
+
+    
+
+
  }
