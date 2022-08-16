@@ -327,7 +327,7 @@ h4{
     font-size: 20px;
  }
 
- @media screen and (min-width: 350px) {
+ @media screen and (max-width: 350px) {
     .hero{
         height: 65vh;
         width: 100%;
@@ -352,7 +352,6 @@ h4{
 
     .content{
         top: 35%;
-        width: 100%;
         transform: translateY(-50%);
     }
 
@@ -369,9 +368,7 @@ h4{
         display: none;
     }
 
-    .about{
-        width: 100%;
-    }
+    
     .about-text{
         width: auto;
         text-align: center;
@@ -380,15 +377,11 @@ h4{
 
     .main{
         flex-direction: column-reverse;
-        column-gap: 10px;
-        width: 100%;
+
+    
 
     }
 
-    .main img{
-        width: 300px;
-        height: auto;
-    }
     .about-text h2{
         font-size: 45px;
         text-align: center;
@@ -410,12 +403,7 @@ h4{
       
     }
 
-    .skills{
-        width: 100%;
-    }
-    .card{
-        width: 100%;
-    }
+
     .box{
         flex-direction: column;
 
@@ -425,7 +413,7 @@ h4{
         justify-content: space-around;
         height: 150px;
         text-align: center;
-        width: 100%;
+
     }
 
     .contact-me p{
