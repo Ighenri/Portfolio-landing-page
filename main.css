@@ -327,12 +327,14 @@ h4{
     font-size: 20px;
  }
 
- @media screen and (max-width:450px) {
+ @media screen and (min-width: 350px) and (max-width: 450px) {
     .hero{
-        height: 40vh;
+        height: 65vh;
         width: 100%;
-        background-size: 87%;
+        background-repeat: no-repeat;
+        background-size: cover;
         background-position: right;
+    
     }
     
     .logo{
@@ -343,16 +345,15 @@ h4{
         display: none;
     }
 
-    .btn{
-        display: none;
-    }
+
     .content{
         top: 35%;
-        transform: translateY(-80%);
+        transform: translateY(-50%);
     }
 
     h1{
         font-size: 40px;
+        margin: 8px 0px;
     }
 
     h3{
@@ -418,4 +419,8 @@ h4{
     
 
 
+ }
+
+ @media screen and (min-width:350px) {
+    
  }
